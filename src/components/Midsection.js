@@ -4,13 +4,13 @@ function Midsection() {
   return (
     <div className=" flex lg:justify-around justify-center items-center my-24 flex-col lg:flex-row mx-10
     ">
-      <div className="text-white text-4xl max-w-[450px] mb-10">
+      <div className="text-white text-4xl max-w-[450px] mb-10 ">
         <p className="text-white text-4xl max-w-[450px] mb-6 font-light">
           Searching for <b> Augmented Development </b> Teams To steer your
           product
           <br /> towards triumph ?"
         </p>
-        <div className="flex justify-between ">
+        <div className="flex sm:justify-between sm:flex-row flex-col justify-center">
           <span>
             50+ <p className="text-xs text-gray-300">Clients</p>
           </span>
@@ -31,28 +31,28 @@ function Midsection() {
           </span>
         </div>
       </div>
-      <form className=" flex justify-center flex-col py-8 px-6 bg-gray-300   min-w-[300px] lg:min-w-[500px] rounded-xl">
+      <form className=" flex justify-center flex-col py-8 px-6 bg-gray-300   min-w-[300px] lg:min-w-[500px] rounded-xl    ">
         <h1 className="text-xl font-semibold">Fill Out the form.</h1>
         <h2 className="">Our team will touch base with you within 24 hours</h2>
-        <div className="flex flex-row space-x-3 my-2 text-black font-thin space-y-4">
+        <div className="flex xs:flex-row xs:space-x-3 space-x-0 my-2 text-black font-thin space-y-4 flex-col">
           <input
             placeholder="First Name"
-            className="placeholder:text-black placeholder:font-thin border-b-2 px-1 border-black   bg-gray-300 appearance-none outline-0 "
+            className="placeholder:text-black placeholder:font-thin border-b-2  border-black   bg-gray-300 appearance-none outline-0 "
           />
           <input
             placeholder="Last Name"
-            className="placeholder:text-black placeholder:font-thin border-b-2 px-1 border-black text-black  bg-gray-300 appearance-none outline-0"
+            className="placeholder:text-black placeholder:font-thin border-b-2  border-black text-black  bg-gray-300 appearance-none outline-0"
           />
         </div>
 
-        <div className="flex flex-row space-x-3 mt-2 text-black font-thin  space-y-4">
+        <div className="flex xs:flex-row xs:space-x-3 space-x-0 mt-2 text-black font-thin  space-y-4 flex-col">
           <input
             placeholder="Country"
-            className="border-b-2 border-black px-1  bg-gray-300 appearance-none outline-0 placeholder:text-black placeholder:font-thin"
+            className="border-b-2 border-black   bg-gray-300 appearance-none outline-0 placeholder:text-black placeholder:font-thin"
           />
           <input
             placeholder="Contact Number"
-            className="placeholder:text-black placeholder:font-thin border-b-2 border-black px-1  bg-gray-300 appearance-none  outline-0"
+            className="placeholder:text-black placeholder:font-thin border-b-2 border-black   bg-gray-300 appearance-none  outline-0"
           />
         </div>
         <input

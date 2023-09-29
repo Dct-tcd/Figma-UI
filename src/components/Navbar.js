@@ -6,7 +6,7 @@ function Navbar() {
   return (
     <div className="flex justify-between mx-5 md:justify-evenly md:mx-0 align-center items-center text-white py-4">
       <div><img src={figma} className="w-15 h-10"/></div>
-      <div className="hidden md:flex text-xs  justify-center space-x-4 py-4 text-gray-500 ">
+      <div className="hidden md:flex text-xs  justify-center space-x-4 py-4 text-gray-400 ">
         <div>Solutions</div>
         <div>Services</div>
         <div>About</div>
